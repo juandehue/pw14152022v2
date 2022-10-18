@@ -1,0 +1,51 @@
+body{
+    font-size: 16px;
+    margin: 0pc auto;
+    max-width: 1024px;
+    /* background-color:rgb(57, 57, 196) */
+}
+
+/* HEADER AJUSTARLO BIEN */
+header nav{
+    background-color: rgb(229, 229, 229);
+    padding: 1px;
+
+}
+
+header nav ul{
+    margin-left: 400px;
+} 
+
+/* #seccion01{
+    width: 30%;
+} */
+
+
+#art01secc01 ul li::before{
+    content: "</>";
+}
+
+
+#art01secc01 ul li{
+    list-style: none;
+}
+
+/* #seccion02{
+    width: 60%;
+} */
+
+#logo{
+    width: 20%;
+}
+
+#noti{
+    width: 20%;
+}
+
+#msg{
+    width: 20%;
+}
+
+#ajustes{
+    width: 20%;
+}
