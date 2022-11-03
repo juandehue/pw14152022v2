@@ -1,98 +1,151 @@
 <!DOCTYPE html>
-<html lang="es"> <!-- /* una secc de 30 una de 60 y dentro de la de 60 agregarle secciones con 4 3 4 articles */ -->
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Practica 04</title>
 </head>
 <body>
     <header>
-        <img src="img/logo.png" alt="" id="logo">
-        <nav>
-            <ul>
-                <img src="img/notificaciones.png" alt="" id="noti">
-                <img src="img/mensajes.png" alt="" id="msg">
-                <img src="img/ajustes.png" alt="" id="ajustes">
-            </ul>
+        <nav id="headernav01">
+            <img src="img/logo.png" alt="">
+        </nav>
+        <nav id="headernav02">
+            <img id="notificaciones" src="img/notificaciones.png" alt="">  
+            <img id="mensajes" src="img/mensajes.png" alt="">
+            <img id="ajustes" src="img/ajustes.png" alt="">
         </nav>
     </header>
-    <section id="seccion01">
-        <article id="art01secc01">
-            <img src="img/panel.PNG" alt="">
-            <ul>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-            </ul>
+
+    <section id="cerosection">
+<article id="secc00art01">
+    <section id="primersection">
+        <article id="secc01art01">
+                <img src="img/panel.PNG" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article> 
+         
+     
+    </section>
+
+    <section id="segundasection">
+        <article id="secc02art01">
+            <img class="imagenlinks" src="img/logoprogress.png" alt="">
+            <span>panel with progress</span>
         </article>
-        <article id="art02secc02">
-            <img src="img/logoprogress.png" alt="">
-            <section>
-                <span class="letragriss">Progress bar</span>
-                <img src="img/barra01.png" alt="">
-            </section>
-            <section>
-                <span class="letragris">Progress bar</span>
-                <img src="img/barra02.png" alt="">
-            </section>
-            <section>
-                <span class="letragris">Progress bar</span>
-                <img src="img/barra03.png" alt="">
-            </section>
-            <section>
-                <span class="letragris">Progress bar</span>
-                <img src="img/barra04.png" alt="">
-            </section>
+        <span>Progress bar</span>        
+        <article>
+            <img class="imagenbarra" src="img/barra01.png" alt="">
+        </article>
+        <span>Progress bar</span>
+        <article>      
+            <img  class="imagenbarra" src="img/barra02.png" alt="">
+        </article>
+        <span>Progress bar</span>
+        <article>
+            <img  class="imagenbarra" src="img/barra03.png" alt="">
+        </article>
+        <span>Progress bar</span>
+        <article>
+            <img  class="imagenbarra" src="img/barra04.png" alt="">
         </article>
     </section>
-    <section id="seccion02">
-        <section id="cubos">
-           <span class="letragris" >Simple cubes</span>
-           <artricle>
-            <img src="img/cubo1.png" alt="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           </artricle>
-           <artricle>
-            <img src="img/cubo02.png" alt="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           </artricle>
-           <artricle>
-            <img src="img/cubo03.png" alt="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           </artricle>
-           <artricle>
-            <img src="img/cubo03.png" alt="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           </artricle>
-        </section>
-        <section id="panels">
-            <span class="letragris">Panels</span>
-            <img src="img/panels.PNG" alt="">
-        </section>
-        <section id="usuarios">
-            <span class="letragris"> Usuarios</span>
-            <article>
-                <img src="img/usuario01.png" alt="">
+
+    <section id="tercerasection">
+        <section id="cuartasection">
+            <article id="secc04art01">
+                <span>Simple cubes</span>
             </article>
-            <article>
-                <img src="img/usuario02.png" alt="">
+            <article id="secc04art02" class="cubomargin">
+                    <img class="imagencubo" src="img/cubo1.png" alt="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </article>
-            <article>
-                <img src="img/usuario03.png" alt="">
+            <article id="secc04art03" class="cubomargin">
+                    <img class="imagencubo" src="img/cubo02.png" alt="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </article>
-            <article>
-                <img src="img/usuario04.png" alt="">
+            <article id="secc04art04" class="cubomargin">
+                    <img class="imagencubo" src="img/cubo03.png" alt="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </article>
+            <article id="secc04art05" class="cubomargin">
+                    <img  class="imagencubo"src="img/cubo04.png" alt="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </article>
         </section>
+
+        <section id="quintasection" >
+            <article>
+                <span>Panels</span>
+            </article>
+        
+            <article>
+                <img id="panels" src="img/panels.PNG" alt="">
+            </article>
+        </section>
+
+        <section id="sextasection">
+
+            <article>
+                <span>Usuarios</span>
+            </article>
+            <article id="secc06art01" class="usuario">
+                    <img class="imagenusuario" src="img/usuario01.png" alt="">
+                     UserExample
+              
+                    <input type="submit" value="Send Mensagge">
+            </article>
+            <article id="secc06art02" class="usuario">
+                    <img class="imagenusuario" src="img/usuario02.png" alt="">
+                    UserExample
+                   
+                    <input type="submit" value="Send Mensagge">
+            </article>
+            <article id="secc06art03" class="usuario">
+                    <img class="imagenusuario" src="img/usuario03.png" alt="">
+                    UserExample
+                    
+                    <input type="submit" value="Send Mensagge">
+            </article>
+            <article id="secc06art04" class="usuario">
+                    <img class="imagenusuario" src="img/usuario04.png" alt="">
+                    UserExample
+                    <input type="submit" value="Send Mensagge">
+            </article>
+    
+        </section>
+    
     </section>
+</article>
+
+    </section>
+
+
+   
+
+
+
+
+
+
+  
+
+  
+
+
+
 </body>
 </html>
